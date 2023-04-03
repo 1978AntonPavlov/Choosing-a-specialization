@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" modified="2023-04-03T20:53:56.210Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 YaBrowser/22.9.2.1501 Yowser/2.5 Safari/537.36" etag="z_Tq6lSmLRHcDMAUCbkC" version="21.1.1" type="device">
+  <diagram id="dH6k9NTIesYO_HcMk84H" name="Схема метода">
+    <mxGraphModel dx="1386" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AlaVa-KSxoY17fMJesgl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agnQd_lzbdPJiHZVUdNa-7" target="AlaVa-KSxoY17fMJesgl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agnQd_lzbdPJiHZVUdNa-7" value="&lt;p class=&quot;MsoNormal&quot;&gt;for (int i&amp;nbsp;= 0;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;i &amp;lt; array1.Length; i++)&lt;/span&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="293" y="369" width="270" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agnQd_lzbdPJiHZVUdNa-11" target="AlaVa-KSxoY17fMJesgl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agnQd_lzbdPJiHZVUdNa-11" value="CreateArray" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="322" y="67" width="205" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="5r7eU4DgM71tSVGOj6O8-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Блок-схема &lt;br&gt;метода&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="33" y="67" width="209" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AlaVa-KSxoY17fMJesgl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;string[] array1&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;string[] array2&lt;br&gt;&lt;/span&gt;int count = 0&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="318.75" y="233" width="212.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-10" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AlaVa-KSxoY17fMJesgl-3" target="AlaVa-KSxoY17fMJesgl-4">
+          <mxGeometry x="0.0022" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AlaVa-KSxoY17fMJesgl-3" target="agnQd_lzbdPJiHZVUdNa-7">
+          <mxGeometry x="-0.0303" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="593" y="599" />
+              <mxPoint x="593" y="428" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;if (&lt;span lang=&quot;EN-US&quot;&gt;array&lt;/span&gt;1[&lt;span lang=&quot;EN-US&quot;&gt;i&lt;/span&gt;].&lt;span lang=&quot;EN-US&quot;&gt;Length&lt;/span&gt; &amp;lt;= 3)&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="293" y="540" width="270" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AlaVa-KSxoY17fMJesgl-4" target="agnQd_lzbdPJiHZVUdNa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlaVa-KSxoY17fMJesgl-4" value="&lt;p style=&quot;margin-bottom:0cm;margin-bottom:.0001pt;line-height:&lt;br/&gt;normal&quot; class=&quot;MsoNormal&quot;&gt;array2[count] =&lt;br/&gt;array1[i];&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin-bottom:0cm;margin-bottom:.0001pt;line-height:&lt;br/&gt;normal&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;count++;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="39" y="389" width="212.5" height="77" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
